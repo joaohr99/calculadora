@@ -1,0 +1,68 @@
+body{ 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    border-radius: 25px;
+    padding: 25px;
+    background-image: linear-gradient(to left, #bdc3c7  , #2c3e50)
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 2px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #A9A9A9;
+    color: white
+
+}
+
+input{
+    width: 75%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid #A9A9A9;
+    padding: 20px;
+}
+
+#form{
+    width: 40%;
+
+}
+
+button{
+    background-color: #A9A9A9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 65%;
+    height: 35px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #535353;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+
+}
+
+#radio-math-operator{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
